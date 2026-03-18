@@ -1,0 +1,48 @@
+========================================================================
+               rDataRecon  -  Dataset Comparison Report
+========================================================================
+  BASE    : ae_sponsor            7 obs  x  11 vars
+  COMPARE : ae_cro                7 obs  x  11 vars
+  Criterion : 1e-08  (absolute)
+  Run time  : 2026-03-16 17:26:17
+------------------------------------------------------------------------
+
+  SECTION 1  -  Variable Structure
+------------------------------------------------------------------------
+  In BASE only    ( 0) : none
+  In COMPARE only ( 0) : none
+
+  SECTION 2  -  Variable Type Mismatches
+------------------------------------------------------------------------
+  All common variables have matching types.
+
+  SECTION 3  -  Value Comparison
+------------------------------------------------------------------------
+  Variables with no differences (6): [suppressed]
+
+  Variables WITH differences (3): AESEV, AEREL, AEOUT
+
+  Obs ID                        Variable            BASE value          COMPARE value       Difference
+  ----------------------------  ------------------  ------------------  ------------------  ------------
+  USUBJID = STUDY001-002 | AES  AESEV               MILD                MODERATE            
+  USUBJID = STUDY001-004 | AES  AEREL               POSSIBLY RELATED    RELATED             
+  USUBJID = STUDY001-003 | AES  AEOUT               NOT RECOVERED       FATAL               
+
+  SECTION 4  -  Summary Statistics
+------------------------------------------------------------------------
+  Obs in BASE                                   7
+  Obs in COMPARE                                7
+  Obs in BASE only                              0
+  Obs in COMPARE only                           0
+  Variables in BASE                             11
+  Variables in COMPARE                          11
+  Variables in BASE only                        0
+  Variables in COMPARE only                     0
+  Variables with type mismatches                0
+  Variables compared                            9
+  Variables with all values equal               6
+  Variables with any differences                3
+  Total value differences                       3
+========================================================================
+  VERDICT :  DATASETS HAVE DIFFERENCES
+========================================================================
