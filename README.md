@@ -19,9 +19,10 @@ data-quality workflows.
 install.packages("rDataRecon")
 
 # Development version from GitHub
-install.packages("remotes") #Install the tool that allows GitHub installs if applicable
-remotes::install_github("ganeshbabunn/rDataRecon") #Install the package directly from GitHub
-library(rDataRecon) #load the library
+install.packages("remotes") 
+remotes::install_github("ganeshbabunn/rDataRecon")
+# load the library
+library(rDataRecon) 
 
 # From local source
 install.packages("../rDataRecon_X.X.tar.gz", repos = NULL, type = "source")
