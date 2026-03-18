@@ -21,8 +21,6 @@ install.packages("rDataRecon")
 # Development version from GitHub
 install.packages("remotes") 
 remotes::install_github("ganeshbabunn/rDataRecon")
-# load the library
-library(rDataRecon) 
 
 # From local source
 install.packages("../rDataRecon_X.X.tar.gz", repos = NULL, type = "source")
