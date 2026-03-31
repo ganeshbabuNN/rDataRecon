@@ -10,7 +10,11 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
 Suggests: 
     knitr,
+    remotes,
     rmarkdown,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    tidyverse
 Config/testthat/edition: 3
 VignetteBuilder: knitr
+URL: https://github.com/ganeshbabuNN/rDataRecon
+BugReports: https://github.com/ganeshbabuNN/rDataRecon/issues
