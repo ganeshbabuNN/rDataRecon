@@ -5,11 +5,11 @@
   the other is `numeric` (double). Previously, the type-mismatch check treated
   `integer` and `numeric` as incompatible classes and silently excluded such
   columns from value comparison, returning zero differences when differences
-  existed. Both types are now recognised as members of the numeric family and
+  existed. Both types are now recognized as members of the numeric family and
   are compared normally (#1).
 * Test 12 (positional matching) updated to use consistent `numeric` types.
 * Test 12b added as an explicit regression test for the `integer`/`numeric`
-  mix behaviour.
+  mix behavior.
 
 # rDataRecon 0.1.0
 

@@ -62,6 +62,14 @@ for use in automated QC pipelines.
 }
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/ganeshbabuNN/rDataRecon}
+  \item Report bugs at \url{https://github.com/ganeshbabuNN/rDataRecon/issues}
+}
+
+}
 \author{
 Your Name \email{your.email@example.com}
 }

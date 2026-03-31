@@ -1,5 +1,5 @@
-install.packages("remotes")
-remotes::install_github("ganeshbabunn/rDataRecon")
+#install.packages("remotes")
+#remotes::install_github("ganeshbabunn/rDataRecon")
 library(tidyverse)
 library(rDataRecon)
 
