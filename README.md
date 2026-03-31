@@ -18,12 +18,15 @@ data-quality workflows.
 # From CRAN (once published)
 install.packages("rDataRecon")
 
-# Development version from GitHub
-install.packages("remotes") 
+# Stable version:
 remotes::install_github("ganeshbabunn/rDataRecon")
+
+# Development version:
+remotes::install_github("ganeshbabunn/rDataRecon@dev")
 
 # From local source
 install.packages("../rDataRecon_X.X.tar.gz", repos = NULL, type = "source")
+X indicates the version of the release.
 ```
 
 ---
@@ -36,14 +39,14 @@ library(rDataRecon)
 base_df <- data.frame(
   id   = 1:5,
   age  = c(25L, 30L, 35L, 40L, 45L),
-  name = c("Alice", "Bob", "Carol", "Dave", "Eve"),
+  name = c("Sarang", "Ganesh", "Swetha", "Jyothi", "Rudresh"),
   stringsAsFactors = FALSE
 )
 
 comp_df <- data.frame(
   id   = 1:5,
   age  = c(25L, 31L, 35L, 40L, 45L),
-  name = c("Alice", "bob", "Carol", "Dave", "Eve"),
+  name = c("Sarang", "ganesh", "Swetha", "Jyothi", "Rudresh"),
   stringsAsFactors = FALSE
 )
 
@@ -56,7 +59,7 @@ Extract differences as a tidy data frame:
 get_diffs(result)
 #   obs_id variable base_value compare_value  diff
 # 1  id = 2      age         30            31     1
-# 2  id = 2     name        Bob           bob    NA
+# 2  id = 2     name        Ganesh         ganesh  NA
 ```
 
 ---
