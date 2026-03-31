@@ -4,7 +4,7 @@ Version: 1.0.0
 Authors@R: 
     person("Ganesh Babu", "G", , "Ganeshbabu346@gmail.com", role = c("aut", "cre"))
 Description: Provides a set of utilities for dataset comparison and reconciliation, with particular support for SDTM and ADaM data frames used in clinical data programming. Helps users detect discrepancies in variable names, values, and row-level data between two data frames, supporting quality checks and data validation workflows.
-License: MIT + file LICENSE
+License: GPL (>= 3) + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
@@ -12,8 +12,7 @@ Suggests:
     knitr,
     remotes,
     rmarkdown,
-    testthat (>= 3.0.0),
-    tidyverse
+    testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 URL: https://github.com/ganeshbabuNN/rDataRecon

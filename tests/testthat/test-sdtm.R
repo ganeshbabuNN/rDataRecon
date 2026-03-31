@@ -164,7 +164,7 @@ recon(
   compare = ae_cro,
   id      = c("USUBJID", "AESEQ"),
   noequal = TRUE,
-  out      = "sdtm_dm_comparison.txt"
+  out      = "sdtm_ae_comparison.txt"
 )
 
 r2 <- recon(

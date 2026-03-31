@@ -201,4 +201,5 @@ When opening a new issue, use the appropriate label:
 
 ## License
 
-MIT - Ganesh Babu G
+GPL-3.0
+Copyright (C) 2026 Ganesh Babu G
