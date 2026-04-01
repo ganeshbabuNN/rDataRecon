@@ -4,7 +4,7 @@ Version: 1.0.0
 Authors@R: 
     person("Ganesh Babu", "G", , "Ganeshbabu346@gmail.com", role = c("aut", "cre"))
 Description: Provides a set of utilities for dataset comparison and reconciliation, with particular support for SDTM and ADaM data frames used in clinical data programming. Helps users detect discrepancies in variable names, values, and row-level data between two data frames, supporting quality checks and data validation workflows.
-License: GPL (>= 3) + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.3
