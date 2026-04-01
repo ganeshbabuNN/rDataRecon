@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/badge/version-1.0.0-blue" align="right"/> <img src="https://img.shields.io/badge/license-GPL--3.0-green" align="right"/>
 # rDataRecon
 
 **An R package for dataset comparison and reconciliation for SDTM/ADAM data frames and Others .**
